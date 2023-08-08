@@ -5,7 +5,7 @@ from typing import Any, Dict
 
 from requests import Session
 
-from todoist_api_python.headers import create_headers
+from todoist_api.headers import create_headers
 
 
 def get(

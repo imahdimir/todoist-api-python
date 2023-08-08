@@ -3,7 +3,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 from typing import List, Literal
 
-from todoist_api_python.utils import get_url_for_task
+from todoist_api.utils import get_url_for_task
 
 VIEW_STYLE = Literal["list", "board"]
 

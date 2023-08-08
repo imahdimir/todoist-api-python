@@ -2,8 +2,8 @@ from __future__ import annotations
 
 from typing import List
 
-from todoist_api_python.api import TodoistAPI
-from todoist_api_python.models import (
+from todoist_api.api import TodoistAPI
+from todoist_api.models import (
     Collaborator,
     Comment,
     Label,
@@ -12,7 +12,7 @@ from todoist_api_python.models import (
     Section,
     Task,
 )
-from todoist_api_python.utils import run_async
+from todoist_api.utils import run_async
 
 
 class TodoistAPIAsync:

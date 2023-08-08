@@ -6,16 +6,16 @@ from urllib.parse import urlencode
 import requests
 from requests import Session
 
-from todoist_api_python.endpoints import (
+from todoist_api.endpoints import (
     AUTHORIZE_ENDPOINT,
     REVOKE_TOKEN_ENDPOINT,
     TOKEN_ENDPOINT,
     get_auth_url,
     get_sync_url,
 )
-from todoist_api_python.http_requests import post
-from todoist_api_python.models import AuthResult
-from todoist_api_python.utils import run_async
+from todoist_api.http_requests import post
+from todoist_api.models import AuthResult
+from todoist_api.utils import run_async
 
 
 def get_auth_token(

@@ -4,7 +4,7 @@ from typing import Any, Dict, List
 
 import requests
 
-from todoist_api_python.endpoints import (
+from todoist_api.endpoints import (
     COLLABORATORS_ENDPOINT,
     COMMENTS_ENDPOINT,
     LABELS_ENDPOINT,
@@ -18,8 +18,8 @@ from todoist_api_python.endpoints import (
     get_rest_url,
     get_sync_url,
 )
-from todoist_api_python.http_requests import delete, get, post
-from todoist_api_python.models import (
+from todoist_api.http_requests import delete, get, post
+from todoist_api.models import (
     Collaborator,
     Comment,
     Label,
